@@ -92,7 +92,8 @@ with left:
     st.markdown("## 🔍 Prediction")
 
     if st.button("💰 Predict Price", use_container_width=True):
-        price = model.predict(input_encoded)[0]
+        price = model.predict(input_encoded.values)[0]
+
 
         st.success(
             f"### Estimated Price: **{price:,.0f} SAR**"
@@ -131,3 +132,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+

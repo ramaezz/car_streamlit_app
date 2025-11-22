@@ -70,7 +70,9 @@ The project follows a structured machine learning workflow:
 
 1. Open the notebook in Google Colab.  
 2. Run cells step-by-step to reproduce data analysis and model predictions.  
-3. Optional: Replace the dataset with updated car listings for fresh predictions.  
+3. Optional: Replace the dataset with updated car listings for fresh predictions.
+4. To access our deployed application, please access the following URL:
+    https://ramaezz-car-streamlit-app-app-uuebnk.streamlit.app/
 
 ---
 
@@ -80,4 +82,5 @@ The project follows a structured machine learning workflow:
 - Pandas, NumPy  
 - Matplotlib, Seaborn for visualization  
 - Scikit-learn for regression modeling  
+
 - Google Colab for interactive coding  
